@@ -1,0 +1,103 @@
+/* 四角形のスタイル */
+.square1 {
+  width: 100%; /* 幅200ピクセル */
+  height: 200px; /* 高さ200ピクセル */
+  background-color: rgb(165, 209, 165); /* 色を緑に設定 */
+  margin: 0 auto; /* 水平方向の中央配置 */
+}
+.introduction{
+  display: flex; /* Flexbox を使用して要素を並べる */
+  align-items: center; /* 要素を垂直方向に中央揃え */
+  justify-content: center; /* 要素を水平方向に中央揃え */
+  font-size: 3rem;
+  background-color: whitesmoke;
+}
+p{
+  font-style: italic;
+  font-size: 8rem;
+  text-align: center;
+  
+}
+
+p2{
+  font-style: italic;
+  font-size: 5em;
+  text-align: center;
+}
+
+pm{
+  margin-left: 3em;
+}
+
+.square2{
+  width: 100%;
+  height: 1100px; /* 高さ200ピクセル */
+  margin:0 auto;
+  background-color: rgb(241, 245, 247);
+}
+
+.square3{
+  width: 1000px;
+  height:500px;
+  background-color: green;
+  margin: 0 auto;
+  text-align: center;
+}
+/* 四角形のスタイル */
+.blue-square {
+  width: 1000px; /* 幅200ピクセル */
+  font-size: 4rem;
+  background-color: blue;/* 色を青に設定 */
+  margin: 0 auto; /* 水平方向の中央配置 */
+}
+.input-field {
+  font-size: 4rem;
+  width: 1000px;
+  height:200px; 
+  margin: 0 auto; /* 水平方向の中央配置 */
+}
+
+.body{
+  font-size: 4rem;
+}
+
+#new {
+  margin: 0;
+  display: flex;		/*flexボックスを使う指定*/
+  flex-wrap: wrap;	/*折り返す指定*/
+  padding: 0 20px;	/*上下、左右へのボックス内の余白*/
+}
+
+.button{
+  text-align: center;
+}
+
+
+#wani{
+  align-items: center; /* 要素を垂直方向に中央揃え */
+}
+
+.change-text {
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+.ans1{
+  width: 100%;
+  height: 500px; /* 高さ200ピクセル */
+  margin:0 auto;
+  font-size: 6rem;
+}
+
+.selects{
+  font-size: 4rem;
+  text-align: center;
+}
+
+#stringSelect{
+  font-size: 4rem;
+}
+
+#kadai{
+  color: red;
+  font-size: 8rem;
+}
